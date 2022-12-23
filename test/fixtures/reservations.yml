@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+type_one:
+  code: <%= SecureRandom.urlsafe_base64 %>
+  start_date: 2022-12-23
+  end_date: 2022-12-23
+  nights: 1
+  adults: 1
+  children: 1
+  infants: 1
+  status: 1
+  guest: one
+  currency: MyString
+  payout_price: 9.99
+  security_price: 9.99
+  guest: john
+
+type_two:
+  code: <%= SecureRandom.urlsafe_base64 %>
+  start_date: 2022-12-23
+  end_date: 2022-12-23
+  nights: 1
+  adults: 1
+  children: 1
+  infants: 1
+  status: 1
+  guest: two
+  currency: MyString
+  payout_price: 9.99
+  security_price: 9.99
+  guest: john
